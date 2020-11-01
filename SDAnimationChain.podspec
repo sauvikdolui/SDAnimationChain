@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '12.0'
   s.swift_version = ['5.0', '5.1', '5.2', '5.3']
-  s.source_files = 'Source/SDAnimationChain/Classes/**/*'
+  s.source_files = 'Sources/SDAnimationChain/Classes/**/*'
   
   # s.resource_bundles = {
   #   'SDAnimationChain' => ['SDAnimationChain/Assets/*.png']
