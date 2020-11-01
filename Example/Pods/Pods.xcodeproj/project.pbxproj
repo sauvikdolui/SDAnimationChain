@@ -38,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		041D603622843B8EA214E5FBDA6A9E3E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		041D603622843B8EA214E5FBDA6A9E3E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		055A93AC993F365183F7F3ED678D9417 /* SDAnimationChain-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SDAnimationChain-Info.plist"; sourceTree = "<group>"; };
 		0855F23E1A153003314CA0711ABD66D4 /* SDAnimationChain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SDAnimationChain.modulemap; sourceTree = "<group>"; };
 		0E439759DCC7DAA660DB21A94EEFB457 /* Pods-SDAnimationChain_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SDAnimationChain_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -46,32 +46,32 @@
 		11F2433802941627F8DAEB82AF66D4A1 /* Pods-SDAnimationChain_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SDAnimationChain_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		188BB30973BC3208C1B21CCAECEB6D68 /* UIView+Animator+Task.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Animator+Task.swift"; path = "SDAnimationChain/Classes/UIView+Animator+Task.swift"; sourceTree = "<group>"; };
 		3342708827E20606F2F507E90CC1B8CB /* Pods-SDAnimationChain_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDAnimationChain_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		35D5D40349ED5FCCF4565A1662E94113 /* SDAnimationChain.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SDAnimationChain.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		35D5D40349ED5FCCF4565A1662E94113 /* SDAnimationChain.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SDAnimationChain.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3F020F10B8D6C63373FA533C7F18B996 /* Pods-SDAnimationChain_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDAnimationChain_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		43FCC24561FEFE7EDA7E217B35641F97 /* SDAnimationChain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDAnimationChain-dummy.m"; sourceTree = "<group>"; };
 		460C1F342423D643B25F9685A7912221 /* Pods-SDAnimationChain_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SDAnimationChain_Example.modulemap"; sourceTree = "<group>"; };
-		4D731DBF0FD4F0D67DDC5A3DD8501E4E /* Pods_SDAnimationChain_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SDAnimationChain_Example.framework; path = "Pods-SDAnimationChain_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D731DBF0FD4F0D67DDC5A3DD8501E4E /* Pods_SDAnimationChain_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDAnimationChain_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E92AA0BC339533C3EA5E28E52504158 /* Pods-SDAnimationChain_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SDAnimationChain_Example-frameworks.sh"; sourceTree = "<group>"; };
 		5C5563E617B786C7E5C53F35765F79E1 /* Pods-SDAnimationChain_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SDAnimationChain_Example-dummy.m"; sourceTree = "<group>"; };
 		5C81E7079526F21D420D1ACB4338B69C /* SDAnimationChain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDAnimationChain-umbrella.h"; sourceTree = "<group>"; };
 		619E90728BE11F3362D60D2B70F8D80C /* SDAnimationChain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDAnimationChain.debug.xcconfig; sourceTree = "<group>"; };
-		621445EF63180A1E53C46EF1F9557D42 /* SDAnimationChain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDAnimationChain.framework; path = SDAnimationChain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		621445EF63180A1E53C46EF1F9557D42 /* SDAnimationChain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDAnimationChain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		8887AD4184E913E50E724EBF7A870403 /* Pods-SDAnimationChain_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SDAnimationChain_Tests-dummy.m"; sourceTree = "<group>"; };
 		88D8DD70658224989BCC9F4D388FB078 /* SDAnimationChain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDAnimationChain.release.xcconfig; sourceTree = "<group>"; };
 		952FF6FC6CA5F0C1D4CB2E82AB7FCA64 /* Pods-SDAnimationChain_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDAnimationChain_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		97CBF848ADCE4717FF7A1D9B7E69BB21 /* SDAnimationChain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDAnimationChain-prefix.pch"; sourceTree = "<group>"; };
 		9CD434F92C6FBDC46090070A9A4BAE88 /* UIView+Animator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Animator.swift"; path = "SDAnimationChain/Classes/UIView+Animator.swift"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A7F617E79317B2F998F5E5DAC569CEED /* Pods-SDAnimationChain_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDAnimationChain_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A9B19E6BC4A4CBBDAB0FD430C74A2936 /* Pods-SDAnimationChain_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SDAnimationChain_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AB14393E7C6297612FF96856AF11E758 /* Pods-SDAnimationChain_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDAnimationChain_Tests-Info.plist"; sourceTree = "<group>"; };
 		D0AC0CC84444FC852C5677EA0BFC3059 /* Pods-SDAnimationChain_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SDAnimationChain_Example-umbrella.h"; sourceTree = "<group>"; };
-		E1B7A9057D553A68BA906EC64D3E6C7B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E1B7A9057D553A68BA906EC64D3E6C7B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		E3A5AACA3CF17B1F829217144E54B959 /* Pods-SDAnimationChain_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDAnimationChain_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E66124EC0B866D7C558246313E08DFF6 /* Pods-SDAnimationChain_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDAnimationChain_Example-Info.plist"; sourceTree = "<group>"; };
 		EF76481BFCB3EDB3FBC5EB6ED4AD3D24 /* Pods-SDAnimationChain_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SDAnimationChain_Tests.modulemap"; sourceTree = "<group>"; };
-		FF901BB9C687847467FCF704BA79EA15 /* Pods_SDAnimationChain_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SDAnimationChain_Tests.framework; path = "Pods-SDAnimationChain_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF901BB9C687847467FCF704BA79EA15 /* Pods_SDAnimationChain_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDAnimationChain_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -319,7 +319,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1210;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -415,7 +415,6 @@
 			baseConfigurationReference = E3A5AACA3CF17B1F829217144E54B959 /* Pods-SDAnimationChain_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -438,6 +437,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -449,7 +449,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 88D8DD70658224989BCC9F4D388FB078 /* SDAnimationChain.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -469,6 +468,7 @@
 				PRODUCT_NAME = SDAnimationChain;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -549,7 +549,6 @@
 			baseConfigurationReference = 11105AA7CA1D8182F6FD58D0B075E2C3 /* Pods-SDAnimationChain_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -572,6 +571,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -583,7 +583,6 @@
 			baseConfigurationReference = 3342708827E20606F2F507E90CC1B8CB /* Pods-SDAnimationChain_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -606,6 +605,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -668,8 +668,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -680,7 +679,6 @@
 			baseConfigurationReference = A7F617E79317B2F998F5E5DAC569CEED /* Pods-SDAnimationChain_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -703,6 +701,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -713,7 +712,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 619E90728BE11F3362D60D2B70F8D80C /* SDAnimationChain.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -733,6 +731,7 @@
 				PRODUCT_NAME = SDAnimationChain;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
