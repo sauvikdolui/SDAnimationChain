@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SDAnimationChain: a97f3a1fe44aa29eabab499bb9ffaad42f7a4f9f
+  SDAnimationChain: 1c81533f64153999fa129ea7507b6bc3000fcfbc
 
 PODFILE CHECKSUM: 4a78b2a367d2fe72aaeb41023ad837597ba4e016
 
