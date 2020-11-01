@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SDAnimationChain'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'A syntactic sugar for chaning UIView animations in Swift.'
 
 # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '12.0'
   s.swift_version = ['5.0', '5.1', '5.2', '5.3']
-  s.source_files = 'SDAnimationChain/Classes/**/*'
+  s.source_files = 'Source/SDAnimationChain/Classes/**/*'
   
   # s.resource_bundles = {
   #   'SDAnimationChain' => ['SDAnimationChain/Assets/*.png']
