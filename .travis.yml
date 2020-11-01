@@ -25,11 +25,3 @@ before_install:
 script:
 - set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/SDAnimationChain.xcworkspace -scheme SDAnimationChain-Example -sdk iphonesimulator14.1 -destination 'platform=iOS Simulator,name=iPhone 12,OS=14.1' ONLY_ACTIVE_ARCH=NO | xcpretty
 - pod lib lint
-before_deploy:
-  - carthage build --no-skip-current
-  - carthage archive $FRAMEWORK_NAME
-deploy:
-  skip_cleanup: true
-  on:
-    repo: sauvikdolui/SDAnimationChain
-    tags: true
