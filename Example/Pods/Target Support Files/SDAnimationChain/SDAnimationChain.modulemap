@@ -1,0 +1,6 @@
+framework module SDAnimationChain {
+  umbrella header "SDAnimationChain-umbrella.h"
+
+  export *
+  module * { export * }
+}

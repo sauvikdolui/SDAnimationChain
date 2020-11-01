@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SDAnimationChain'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SDAnimationChain.'
+  s.summary          = 'A syntactic sugar for chaning UIView animations in Swift.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,10 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
+  s.description      = "Syntactic sugar for implementation of UIView animations chain."
   s.homepage         = 'https://github.com/sauvikdolui/SDAnimationChain'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -28,8 +25,8 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/sauvikdolui/SDAnimationChain.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
-
+  s.ios.deployment_target = '12.0'
+  s.swift_version = ['5.0', '5.1', '5.2', '5.3']
   s.source_files = 'SDAnimationChain/Classes/**/*'
   
   # s.resource_bundles = {
@@ -37,6 +34,4 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

@@ -1,0 +1,16 @@
+PODS:
+  - SDAnimationChain (0.1.0)
+
+DEPENDENCIES:
+  - SDAnimationChain (from `../`)
+
+EXTERNAL SOURCES:
+  SDAnimationChain:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SDAnimationChain: a97f3a1fe44aa29eabab499bb9ffaad42f7a4f9f
+
+PODFILE CHECKSUM: 4a78b2a367d2fe72aaeb41023ad837597ba4e016
+
+COCOAPODS: 1.10.0
