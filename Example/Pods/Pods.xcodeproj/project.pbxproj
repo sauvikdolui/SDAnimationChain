@@ -8,16 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		01CB6BC3A23EC3222DDA99906B2CBC31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		01DFC9203C6C45A4EFC90229C6A5EDE4 /* SDAnimationChain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FCC24561FEFE7EDA7E217B35641F97 /* SDAnimationChain-dummy.m */; };
-		114B71BF6B786517027CC679D7FC5ED7 /* SDAnimationChain-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C81E7079526F21D420D1ACB4338B69C /* SDAnimationChain-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01DFC9203C6C45A4EFC90229C6A5EDE4 /* SDAnimationChain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B11BEBFA1DB29F18C227E508F4F600 /* SDAnimationChain-dummy.m */; };
+		114B71BF6B786517027CC679D7FC5ED7 /* SDAnimationChain-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3B472EF8040928014A1932F15BD39C3 /* SDAnimationChain-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		372F4B37F4E1CB29359113ABD6B63C94 /* Pods-SDAnimationChain_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0AC0CC84444FC852C5677EA0BFC3059 /* Pods-SDAnimationChain_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37DF3C49A628C5266AF66459150A84F0 /* Pods-SDAnimationChain_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8887AD4184E913E50E724EBF7A870403 /* Pods-SDAnimationChain_Tests-dummy.m */; };
 		3983D2AF621C7BC05C21BFDB60703563 /* Pods-SDAnimationChain_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5563E617B786C7E5C53F35765F79E1 /* Pods-SDAnimationChain_Example-dummy.m */; };
 		423D1290476AD1117FECBAB3314CB641 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		46875EFF884A6183B674406A5A9F112C /* UIView+Animator+Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188BB30973BC3208C1B21CCAECEB6D68 /* UIView+Animator+Task.swift */; };
-		72409287611EE67C3949B61F3C2FCE6F /* UIView+Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD434F92C6FBDC46090070A9A4BAE88 /* UIView+Animator.swift */; };
+		B5F3D1D4DB04354912B1B3AE2C200081 /* UIView+Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98122DC6CD926573ED1D613A793CA6DA /* UIView+Animator.swift */; };
 		D8F231272B5A18616256508BD44CE96B /* Pods-SDAnimationChain_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E439759DCC7DAA660DB21A94EEFB457 /* Pods-SDAnimationChain_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DDE74AE8BE85A9E57CA9A218E8555ABE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F1243C9C91B591234700E82DC26B661D /* UIView+Animator+Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55FD21A8E4C243FF22DB1832194CC10 /* UIView+Animator+Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,40 +38,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		041D603622843B8EA214E5FBDA6A9E3E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		055A93AC993F365183F7F3ED678D9417 /* SDAnimationChain-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SDAnimationChain-Info.plist"; sourceTree = "<group>"; };
-		0855F23E1A153003314CA0711ABD66D4 /* SDAnimationChain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SDAnimationChain.modulemap; sourceTree = "<group>"; };
+		02A23588D1FAD2B2FE50D2E9910E9DFD /* SDAnimationChain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDAnimationChain.debug.xcconfig; sourceTree = "<group>"; };
 		0E439759DCC7DAA660DB21A94EEFB457 /* Pods-SDAnimationChain_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SDAnimationChain_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0F58273D75698A6251755167A5C25C68 /* SDAnimationChain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDAnimationChain.release.xcconfig; sourceTree = "<group>"; };
 		11105AA7CA1D8182F6FD58D0B075E2C3 /* Pods-SDAnimationChain_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDAnimationChain_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		11F2433802941627F8DAEB82AF66D4A1 /* Pods-SDAnimationChain_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SDAnimationChain_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		188BB30973BC3208C1B21CCAECEB6D68 /* UIView+Animator+Task.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Animator+Task.swift"; path = "Sources/SDAnimationChain/Classes/UIView+Animator+Task.swift"; sourceTree = "<group>"; };
+		22B11BEBFA1DB29F18C227E508F4F600 /* SDAnimationChain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDAnimationChain-dummy.m"; sourceTree = "<group>"; };
+		24FE49CA0732483AC91965D0C9CA7F41 /* SDAnimationChain.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SDAnimationChain.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3342708827E20606F2F507E90CC1B8CB /* Pods-SDAnimationChain_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDAnimationChain_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		35D5D40349ED5FCCF4565A1662E94113 /* SDAnimationChain.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SDAnimationChain.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3F020F10B8D6C63373FA533C7F18B996 /* Pods-SDAnimationChain_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDAnimationChain_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		43FCC24561FEFE7EDA7E217B35641F97 /* SDAnimationChain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDAnimationChain-dummy.m"; sourceTree = "<group>"; };
 		460C1F342423D643B25F9685A7912221 /* Pods-SDAnimationChain_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SDAnimationChain_Example.modulemap"; sourceTree = "<group>"; };
-		4D731DBF0FD4F0D67DDC5A3DD8501E4E /* Pods_SDAnimationChain_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDAnimationChain_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D731DBF0FD4F0D67DDC5A3DD8501E4E /* Pods_SDAnimationChain_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SDAnimationChain_Example.framework; path = "Pods-SDAnimationChain_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E92AA0BC339533C3EA5E28E52504158 /* Pods-SDAnimationChain_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SDAnimationChain_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4FDFEA922E6F9C08F88EEDB9C7BEF164 /* SDAnimationChain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SDAnimationChain.modulemap; sourceTree = "<group>"; };
 		5C5563E617B786C7E5C53F35765F79E1 /* Pods-SDAnimationChain_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SDAnimationChain_Example-dummy.m"; sourceTree = "<group>"; };
-		5C81E7079526F21D420D1ACB4338B69C /* SDAnimationChain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDAnimationChain-umbrella.h"; sourceTree = "<group>"; };
-		619E90728BE11F3362D60D2B70F8D80C /* SDAnimationChain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDAnimationChain.debug.xcconfig; sourceTree = "<group>"; };
-		621445EF63180A1E53C46EF1F9557D42 /* SDAnimationChain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDAnimationChain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DF905C04CDC5A2EA80540914E969E24 /* SDAnimationChain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDAnimationChain-prefix.pch"; sourceTree = "<group>"; };
+		621445EF63180A1E53C46EF1F9557D42 /* SDAnimationChain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDAnimationChain.framework; path = SDAnimationChain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		8887AD4184E913E50E724EBF7A870403 /* Pods-SDAnimationChain_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SDAnimationChain_Tests-dummy.m"; sourceTree = "<group>"; };
-		88D8DD70658224989BCC9F4D388FB078 /* SDAnimationChain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDAnimationChain.release.xcconfig; sourceTree = "<group>"; };
 		952FF6FC6CA5F0C1D4CB2E82AB7FCA64 /* Pods-SDAnimationChain_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDAnimationChain_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		97CBF848ADCE4717FF7A1D9B7E69BB21 /* SDAnimationChain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDAnimationChain-prefix.pch"; sourceTree = "<group>"; };
-		9CD434F92C6FBDC46090070A9A4BAE88 /* UIView+Animator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Animator.swift"; path = "Sources/SDAnimationChain/Classes/UIView+Animator.swift"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; };
+		9644B8A4D58E7BF892553E9231B6AE14 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		98122DC6CD926573ED1D613A793CA6DA /* UIView+Animator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Animator.swift"; path = "Sources/SDAnimationChain/Classes/UIView+Animator.swift"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A55FD21A8E4C243FF22DB1832194CC10 /* UIView+Animator+Task.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Animator+Task.swift"; path = "Sources/SDAnimationChain/Classes/UIView+Animator+Task.swift"; sourceTree = "<group>"; };
 		A7F617E79317B2F998F5E5DAC569CEED /* Pods-SDAnimationChain_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDAnimationChain_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A9B19E6BC4A4CBBDAB0FD430C74A2936 /* Pods-SDAnimationChain_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SDAnimationChain_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AB14393E7C6297612FF96856AF11E758 /* Pods-SDAnimationChain_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDAnimationChain_Tests-Info.plist"; sourceTree = "<group>"; };
+		B3D0B9707AD23383E28BE79F8535C3A1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		D0AC0CC84444FC852C5677EA0BFC3059 /* Pods-SDAnimationChain_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SDAnimationChain_Example-umbrella.h"; sourceTree = "<group>"; };
-		E1B7A9057D553A68BA906EC64D3E6C7B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D3B472EF8040928014A1932F15BD39C3 /* SDAnimationChain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDAnimationChain-umbrella.h"; sourceTree = "<group>"; };
+		D78E3C8A07893B7B0731463561E02CDD /* SDAnimationChain-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SDAnimationChain-Info.plist"; sourceTree = "<group>"; };
 		E3A5AACA3CF17B1F829217144E54B959 /* Pods-SDAnimationChain_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDAnimationChain_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E66124EC0B866D7C558246313E08DFF6 /* Pods-SDAnimationChain_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDAnimationChain_Example-Info.plist"; sourceTree = "<group>"; };
 		EF76481BFCB3EDB3FBC5EB6ED4AD3D24 /* Pods-SDAnimationChain_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SDAnimationChain_Tests.modulemap"; sourceTree = "<group>"; };
-		FF901BB9C687847467FCF704BA79EA15 /* Pods_SDAnimationChain_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDAnimationChain_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF901BB9C687847467FCF704BA79EA15 /* Pods_SDAnimationChain_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SDAnimationChain_Tests.framework; path = "Pods-SDAnimationChain_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,38 +102,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2AD51D171944181CA38590D8A498C9D0 /* SDAnimationChain */ = {
+		2E0610784B76566076D6B3582698081F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9CD434F92C6FBDC46090070A9A4BAE88 /* UIView+Animator.swift */,
-				188BB30973BC3208C1B21CCAECEB6D68 /* UIView+Animator+Task.swift */,
-				2D7E76978FF69C71083063E43DC10785 /* Pod */,
-				31F4CFD82A6B6BD997DB1E83377A6D8D /* Support Files */,
-			);
-			name = SDAnimationChain;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		2D7E76978FF69C71083063E43DC10785 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				E1B7A9057D553A68BA906EC64D3E6C7B /* LICENSE */,
-				041D603622843B8EA214E5FBDA6A9E3E /* README.md */,
-				35D5D40349ED5FCCF4565A1662E94113 /* SDAnimationChain.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		31F4CFD82A6B6BD997DB1E83377A6D8D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0855F23E1A153003314CA0711ABD66D4 /* SDAnimationChain.modulemap */,
-				43FCC24561FEFE7EDA7E217B35641F97 /* SDAnimationChain-dummy.m */,
-				055A93AC993F365183F7F3ED678D9417 /* SDAnimationChain-Info.plist */,
-				97CBF848ADCE4717FF7A1D9B7E69BB21 /* SDAnimationChain-prefix.pch */,
-				5C81E7079526F21D420D1ACB4338B69C /* SDAnimationChain-umbrella.h */,
-				619E90728BE11F3362D60D2B70F8D80C /* SDAnimationChain.debug.xcconfig */,
-				88D8DD70658224989BCC9F4D388FB078 /* SDAnimationChain.release.xcconfig */,
+				4FDFEA922E6F9C08F88EEDB9C7BEF164 /* SDAnimationChain.modulemap */,
+				22B11BEBFA1DB29F18C227E508F4F600 /* SDAnimationChain-dummy.m */,
+				D78E3C8A07893B7B0731463561E02CDD /* SDAnimationChain-Info.plist */,
+				5DF905C04CDC5A2EA80540914E969E24 /* SDAnimationChain-prefix.pch */,
+				D3B472EF8040928014A1932F15BD39C3 /* SDAnimationChain-umbrella.h */,
+				02A23588D1FAD2B2FE50D2E9910E9DFD /* SDAnimationChain.debug.xcconfig */,
+				0F58273D75698A6251755167A5C25C68 /* SDAnimationChain.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/SDAnimationChain";
@@ -166,6 +144,18 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		5960C2E8C8F17417530C8DC092FF39C8 /* SDAnimationChain */ = {
+			isa = PBXGroup;
+			children = (
+				98122DC6CD926573ED1D613A793CA6DA /* UIView+Animator.swift */,
+				A55FD21A8E4C243FF22DB1832194CC10 /* UIView+Animator+Task.swift */,
+				ABB77D4147C2875E5781662C9F8A68D7 /* Pod */,
+				2E0610784B76566076D6B3582698081F /* Support Files */,
+			);
+			name = SDAnimationChain;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		95D8AA454AADBFA4728C47D771254D95 /* Pods-SDAnimationChain_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,9 +176,19 @@
 		A531348D41FA43FEE5BC12BEF294E677 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2AD51D171944181CA38590D8A498C9D0 /* SDAnimationChain */,
+				5960C2E8C8F17417530C8DC092FF39C8 /* SDAnimationChain */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		ABB77D4147C2875E5781662C9F8A68D7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B3D0B9707AD23383E28BE79F8535C3A1 /* LICENSE */,
+				9644B8A4D58E7BF892553E9231B6AE14 /* README.md */,
+				24FE49CA0732483AC91965D0C9CA7F41 /* SDAnimationChain.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -319,7 +319,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1210;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -379,8 +379,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				01DFC9203C6C45A4EFC90229C6A5EDE4 /* SDAnimationChain-dummy.m in Sources */,
-				46875EFF884A6183B674406A5A9F112C /* UIView+Animator+Task.swift in Sources */,
-				72409287611EE67C3949B61F3C2FCE6F /* UIView+Animator.swift in Sources */,
+				F1243C9C91B591234700E82DC26B661D /* UIView+Animator+Task.swift in Sources */,
+				B5F3D1D4DB04354912B1B3AE2C200081 /* UIView+Animator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +415,7 @@
 			baseConfigurationReference = E3A5AACA3CF17B1F829217144E54B959 /* Pods-SDAnimationChain_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -437,7 +438,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -447,8 +447,9 @@
 		};
 		1807B7620673B851FAD63862C8022C20 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88D8DD70658224989BCC9F4D388FB078 /* SDAnimationChain.release.xcconfig */;
+			baseConfigurationReference = 0F58273D75698A6251755167A5C25C68 /* SDAnimationChain.release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -468,7 +469,6 @@
 				PRODUCT_NAME = SDAnimationChain;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -549,6 +549,7 @@
 			baseConfigurationReference = 11105AA7CA1D8182F6FD58D0B075E2C3 /* Pods-SDAnimationChain_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -571,7 +572,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -583,6 +583,7 @@
 			baseConfigurationReference = 3342708827E20606F2F507E90CC1B8CB /* Pods-SDAnimationChain_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -605,7 +606,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -668,7 +668,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -679,6 +680,7 @@
 			baseConfigurationReference = A7F617E79317B2F998F5E5DAC569CEED /* Pods-SDAnimationChain_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -701,7 +703,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -710,8 +711,9 @@
 		};
 		D994937907DF71D727C6360CFB5EC48B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 619E90728BE11F3362D60D2B70F8D80C /* SDAnimationChain.debug.xcconfig */;
+			baseConfigurationReference = 02A23588D1FAD2B2FE50D2E9910E9DFD /* SDAnimationChain.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -731,7 +733,6 @@
 				PRODUCT_NAME = SDAnimationChain;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
