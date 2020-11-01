@@ -31,5 +31,5 @@ before_deploy:
 deploy:
   skip_cleanup: true
   on:
-    repo: repo/repo
+    repo: sauvikdolui/SDAnimationChain
     tags: true
